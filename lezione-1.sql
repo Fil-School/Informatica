@@ -31,7 +31,9 @@ SET valore_patrimoniale = 1001
 where cognome = 'Alighieri';
 
 INSERT INTO autori(nome,cognome,n_opere,valore_patrimoniale,data_n,data_m) VALUES
-('Andrea', 'Baggio', 92, '100.89', '2025/09/02', '2025/09/02');
+('Mariasofia', 'Baggio', 92, '100.89', '2025/09/02', '2025/09/02');
+('Mariagrazia', 'Baggio', 92, '100.89', '2025/09/02', '2025/09/02');
+
 /*
 SELECT *
 FROM autori
@@ -48,3 +50,9 @@ WHERE data_n BETWEEN '1940/01/01' AND '2500/01/01';
 SELECT *
 FROM autori
 WHERE cognome IN ('Alighieri');
+
+SELECT * 
+FROM autori
+WHERE nome
+
+
