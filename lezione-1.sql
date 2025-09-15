@@ -31,21 +31,21 @@ SET valore_patrimoniale = 1001
 where cognome = 'Alighieri';
 
 INSERT INTO autori(nome,cognome,n_opere,valore_patrimoniale,data_n,data_m) VALUES
-('Mariasofia', 'Baggio', 92, '100.89', '2025/09/02', '2025/09/02');
-('Mariagrazia', 'Baggio', 92, '100.89', '2025/09/02', '2025/09/02');
+('Mariasofia', 'Baggio', 92, '100.89', '2025/09/02', '2025/09/02'),
+('Mariagrazia', 'Baggiox', 92, '100.89', '2025/09/02', '2025/09/02');
 
-/*
+
 SELECT *
 FROM autori
 WHERE n_opere BETWEEN 1 AND 300;
 WHERE n_opere>=1 AND n_opere<=300;
-*/
 
-/*
+
+
 SELECT cognome,nome
 FROM autori
 WHERE data_n BETWEEN '1940/01/01' AND '2500/01/01';
-*/
+
 
 SELECT *
 FROM autori
